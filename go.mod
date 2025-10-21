@@ -1,4 +1,4 @@
-module github.com/cockroachdb/cockroachdb-parser
+module github.com/seaweedfs/cockroachdb-parser
 
 go 1.23.8
 
