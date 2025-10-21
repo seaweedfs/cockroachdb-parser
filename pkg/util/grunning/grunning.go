@@ -35,7 +35,7 @@ func Difference(a, b time.Duration) time.Duration {
 // grunning.Time() measurements from the start and end.
 //
 // NB: This only exists due to grunning.Time()'s non-monotonicity, a bug in our
-// runtime patch: https://github.com/cockroachdb/cockroachdb-parser/issues/95529. We can
+// runtime patch: https://github.com/seaweedfs/cockroachdb-parser/issues/95529. We can
 // get rid of this, keeping just grunning.Difference(), if that bug is fixed.
 // The bug results in slight {over,under}-estimation of the running time (the
 // latter breaking monotonicity), but is livable with our current uses of this

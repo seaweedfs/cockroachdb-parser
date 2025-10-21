@@ -6,8 +6,8 @@
 package execgen
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree/treebin"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree/treecmp"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree/treebin"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree/treecmp"
 )
 
 // BinaryOpName is a mapping from all binary operators that are supported by

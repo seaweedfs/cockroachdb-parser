@@ -12,8 +12,8 @@ import (
 	_ "embed" // required for go:embed
 	"sync"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geopb"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geoprojbase/embeddedproj"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geopb"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geoprojbase/embeddedproj"
 	"github.com/cockroachdb/errors"
 )
 
@@ -25,7 +25,7 @@ var projectionsInternal map[geopb.SRID]ProjInfo
 
 // MakeSpheroid is an injectable function which creates a spheroid.
 // If you hit the assertion here, you may want to blank import geographic lib, e.g.
-// _ "github.com/cockroachdb/cockroachdb-parser/pkg/geo/geographiclib".
+// _ "github.com/seaweedfs/cockroachdb-parser/pkg/geo/geographiclib".
 var MakeSpheroid = func(radius, flattening float64) (Spheroid, error) {
 	return nil, errors.AssertionFailedf("MakeSpheroid not initialised")
 }

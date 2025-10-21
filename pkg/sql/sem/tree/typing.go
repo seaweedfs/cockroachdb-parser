@@ -6,9 +6,9 @@
 package tree
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree/treebin"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/iterutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree/treebin"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/iterutil"
 )
 
 // InferBinaryType infers the return type of a binary expression, given the type

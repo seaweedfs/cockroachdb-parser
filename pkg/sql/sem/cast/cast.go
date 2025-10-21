@@ -12,8 +12,8 @@ package cast
 import (
 	"sort"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/volatility"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/volatility"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
 	"github.com/lib/pq/oid"
 )
 

@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/colexecerror"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/json"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/colexecerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/json"
 )
 
 // JSONs is a representation of columnar JSON data. It's simply a wrapper around

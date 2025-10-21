@@ -10,12 +10,12 @@ import __yyfmt__ "fmt"
 import (
 	"strconv"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgcode"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgerror"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/scanner"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/json"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/jsonpath"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgcode"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/scanner"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/json"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/jsonpath"
 )
 
 //line jsonpath-gen.y:18

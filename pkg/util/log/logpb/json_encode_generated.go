@@ -5,7 +5,7 @@ package logpb
 import (
 	"strconv"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/jsonbytes"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/jsonbytes"
 	"github.com/cockroachdb/redact"
 	"github.com/gogo/protobuf/jsonpb"
 )

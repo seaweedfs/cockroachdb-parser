@@ -10,9 +10,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgcode"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgerror"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/buildutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgcode"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/buildutil"
 	"github.com/cockroachdb/errors"
 	"github.com/gogo/protobuf/proto"
 )
@@ -170,12 +170,12 @@ func CatchVectorizedRuntimeError(operation func()) (retErr error) {
 // Multiple actual packages can have the same prefix as a single constant string
 // defined below, but all of such packages are allowed to be caught from.
 const (
-	colPackagesPrefix      = "github.com/cockroachdb/cockroachdb-parser/pkg/col"
-	encodingPackagePrefix  = "github.com/cockroachdb/cockroachdb-parser/pkg/util/encoding"
-	execinfraPackagePrefix = "github.com/cockroachdb/cockroachdb-parser/pkg/sql/execinfra"
-	sqlColPackagesPrefix   = "github.com/cockroachdb/cockroachdb-parser/pkg/sql/col"
-	sqlRowPackagesPrefix   = "github.com/cockroachdb/cockroachdb-parser/pkg/sql/row"
-	sqlSemPackagesPrefix   = "github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem"
+	colPackagesPrefix      = "github.com/seaweedfs/cockroachdb-parser/pkg/col"
+	encodingPackagePrefix  = "github.com/seaweedfs/cockroachdb-parser/pkg/util/encoding"
+	execinfraPackagePrefix = "github.com/seaweedfs/cockroachdb-parser/pkg/sql/execinfra"
+	sqlColPackagesPrefix   = "github.com/seaweedfs/cockroachdb-parser/pkg/sql/col"
+	sqlRowPackagesPrefix   = "github.com/seaweedfs/cockroachdb-parser/pkg/sql/row"
+	sqlSemPackagesPrefix   = "github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem"
 	// When running BenchmarkCatchVectorizedRuntimeError under bazel, the
 	// repository prefix is missing.
 	testSqlColPackagesPrefix = "pkg/sql/col"
@@ -199,13 +199,13 @@ func shouldCatchPanic(panicEmittedFrom string) bool {
 		return false
 	}
 
-	const panicFromTheCatcherItselfPrefix = "github.com/cockroachdb/cockroachdb-parser/pkg/sql/colexecerror.CatchVectorizedRuntimeError"
+	const panicFromTheCatcherItselfPrefix = "github.com/seaweedfs/cockroachdb-parser/pkg/sql/colexecerror.CatchVectorizedRuntimeError"
 	if strings.HasPrefix(panicEmittedFrom, panicFromTheCatcherItselfPrefix) {
 		// This panic came from the catcher itself, so we will propagate it
 		// unchanged by the higher-level catchers.
 		return false
 	}
-	const nonCatchablePanicPrefix = "github.com/cockroachdb/cockroachdb-parser/pkg/sql/colexecerror.NonCatchablePanic"
+	const nonCatchablePanicPrefix = "github.com/seaweedfs/cockroachdb-parser/pkg/sql/colexecerror.NonCatchablePanic"
 	if strings.HasPrefix(panicEmittedFrom, nonCatchablePanicPrefix) {
 		// This panic came from NonCatchablePanic() method and should not be
 		// caught.

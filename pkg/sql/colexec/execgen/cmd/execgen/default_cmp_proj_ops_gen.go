@@ -24,13 +24,13 @@ const defaultCmpProjTemplate = `
 package {{.TargetPkg}}
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/col/coldata"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/colconv"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/colexec/colexeccmp"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/colexecerror"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/colexecop"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/execinfra/execreleasable"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/col/coldata"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/colconv"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/colexec/colexeccmp"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/colexecerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/colexecop"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/execinfra/execreleasable"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree"
 )
 
 {{template "defaultCmpProjOp" .}}

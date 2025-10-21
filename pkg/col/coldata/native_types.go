@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/cockroachdb/apd/v3"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/duration"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/duration"
 )
 
 // Bools is a slice of bool.

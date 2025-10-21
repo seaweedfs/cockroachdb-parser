@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	sqllex "github.com/cockroachdb/cockroachdb-parser/pkg/sql/lexbase"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/plpgsql/parser/lexbase"
+	sqllex "github.com/seaweedfs/cockroachdb-parser/pkg/sql/lexbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/plpgsql/parser/lexbase"
 )
 
 // PLpgSQLScanner is a scanner with a PLPGSQL specific scan function

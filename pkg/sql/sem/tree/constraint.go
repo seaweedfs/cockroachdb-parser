@@ -8,7 +8,7 @@ package tree
 import (
 	"strconv"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/semenumpb"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/semenumpb"
 )
 
 // ReferenceAction is the method used to maintain referential integrity through
@@ -96,7 +96,7 @@ func (x ReferenceAction) String() string {
 }
 
 // CompositeKeyMatchMethod is the algorithm use when matching composite keys.
-// See https://github.com/cockroachdb/cockroachdb-parser/issues/20305 or
+// See https://github.com/seaweedfs/cockroachdb-parser/issues/20305 or
 // https://www.postgresql.org/docs/11/sql-createtable.html for details on the
 // different composite foreign key matching methods.
 type CompositeKeyMatchMethod semenumpb.Match

@@ -12,11 +12,11 @@ import (
 	"time"
 
 	"github.com/cockroachdb/apd/v3"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgcode"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgerror"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/syncutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/timeutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/tracing"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgcode"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/syncutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/timeutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/tracing"
 	"github.com/cockroachdb/errors"
 	"github.com/cockroachdb/redact"
 )
@@ -43,7 +43,7 @@ type Clock struct {
 	// as promised by the operator. See MaxOffset().
 	//
 	// TODO(kv): make this dynamic in the distant future, see
-	// https://github.com/cockroachdb/cockroachdb-parser/issues/75564
+	// https://github.com/seaweedfs/cockroachdb-parser/issues/75564
 	maxOffset time.Duration
 
 	// toleratedOffset is the tolerated clock skew with other cluster nodes,

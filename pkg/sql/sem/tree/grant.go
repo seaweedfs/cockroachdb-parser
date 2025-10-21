@@ -14,7 +14,7 @@
 
 package tree
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/sql/privilege"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/sql/privilege"
 
 // Grant represents a GRANT statement.
 type Grant struct {

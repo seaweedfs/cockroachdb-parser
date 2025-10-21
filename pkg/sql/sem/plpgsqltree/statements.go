@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/errorutil/unimplemented"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/errorutil/unimplemented"
 )
 
 type Expr = tree.Expr

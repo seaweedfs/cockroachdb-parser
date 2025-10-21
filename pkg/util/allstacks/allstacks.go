@@ -8,7 +8,7 @@ package allstacks
 import (
 	"runtime"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/debugutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/debugutil"
 )
 
 // Get returns all stacks, except if that takes more than 512mb of memory, in

@@ -21,8 +21,8 @@ import (
 	"github.com/blevesearch/snowballstem/spanish"
 	"github.com/blevesearch/snowballstem/swedish"
 	"github.com/blevesearch/snowballstem/turkish"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgcode"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgcode"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgerror"
 )
 
 func getStemmer(config string) (func(env *snowballstem.Env) bool, error) {

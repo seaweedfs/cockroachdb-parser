@@ -8,7 +8,7 @@ package pgerror
 import (
 	"fmt"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/build"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/build"
 	"github.com/cockroachdb/errors"
 )
 

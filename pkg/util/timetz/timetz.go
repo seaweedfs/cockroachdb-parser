@@ -9,12 +9,12 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgcode"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgerror"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/strutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/timeofday"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/timeutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/timeutil/pgdate"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgcode"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/strutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/timeofday"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/timeutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/timeutil/pgdate"
 )
 
 var (

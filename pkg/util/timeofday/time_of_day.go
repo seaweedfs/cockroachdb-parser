@@ -10,9 +10,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/duration"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/strutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/timeutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/duration"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/strutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/timeutil"
 )
 
 // TimeOfDay represents a time of day (no date), stored as microseconds since

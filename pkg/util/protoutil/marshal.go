@@ -8,7 +8,7 @@ package protoutil
 import (
 	"fmt"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/buildutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/buildutil"
 	"github.com/gogo/protobuf/proto"
 	gproto "google.golang.org/protobuf/proto"
 )

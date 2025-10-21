@@ -11,8 +11,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/col/typeconv"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/col/typeconv"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
 )
 
 type rowToVecTmplInfo struct {

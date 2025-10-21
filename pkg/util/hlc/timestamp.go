@@ -13,7 +13,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/timeutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/timeutil"
 	"github.com/cockroachdb/errors"
 )
 

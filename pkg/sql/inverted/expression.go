@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/keysbase"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/encoding"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/treeprinter"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/keysbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/encoding"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/treeprinter"
 	"github.com/cockroachdb/errors"
 	"github.com/cockroachdb/redact"
 )

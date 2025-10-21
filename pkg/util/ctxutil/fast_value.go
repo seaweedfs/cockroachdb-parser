@@ -9,7 +9,7 @@ import (
 	"context"
 	"sync/atomic"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/buildutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/buildutil"
 	"github.com/cockroachdb/logtags"
 )
 

@@ -8,7 +8,7 @@ package geomfn
 
 import (
 	// Blank import so projections are initialized correctly.
-	_ "github.com/cockroachdb/cockroachdb-parser/pkg/geo/geographiclib"
+	_ "github.com/seaweedfs/cockroachdb-parser/pkg/geo/geographiclib"
 	"github.com/twpayne/go-geom"
 )
 

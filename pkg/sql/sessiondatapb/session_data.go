@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/security/username"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/security/username"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
 )
 
 // GetFloatPrec computes a precision suitable for a call to

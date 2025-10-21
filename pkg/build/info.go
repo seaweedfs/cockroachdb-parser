@@ -14,8 +14,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/buildutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/envutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/buildutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/envutil"
 	"github.com/cockroachdb/redact"
 	"github.com/cockroachdb/version"
 )

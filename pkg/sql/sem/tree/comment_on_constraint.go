@@ -5,7 +5,7 @@
 
 package tree
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/sql/lexbase"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/sql/lexbase"
 
 // CommentOnConstraint represents a COMMENT ON CONSTRAINT statement
 type CommentOnConstraint struct {

@@ -5,7 +5,7 @@
 
 package tree
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/catid"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/catid"
 
 // ID is a custom type for {Database,Table}Descriptor IDs.
 type ID = catid.ColumnID

@@ -10,7 +10,7 @@ import (
 	"io"
 	"text/template"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
 )
 
 // likeTemplate depends either on the selConstOp template from selection_ops_gen
@@ -36,7 +36,7 @@ import (
 	"context"
 	"regexp"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/col/coldata"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/col/coldata"
 )
 
 {{range .}}

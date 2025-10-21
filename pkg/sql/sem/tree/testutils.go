@@ -8,12 +8,12 @@ package tree
 import (
 	"time"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/duration"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/timeofday"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/timeutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/timeutil/pgdate"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/duration"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/timeofday"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/timeutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/timeutil/pgdate"
 	"github.com/cockroachdb/errors"
 )
 

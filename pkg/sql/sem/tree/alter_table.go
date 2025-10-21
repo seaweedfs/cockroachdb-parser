@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/lex"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/lexbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/lex"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/lexbase"
 )
 
 // AlterTable represents an ALTER TABLE statement.

@@ -9,12 +9,12 @@ import (
 	"context"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgcode"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgerror"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/catconstants"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/catid"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/errorutil/unimplemented"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgcode"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/catconstants"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/catid"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/errorutil/unimplemented"
 	"github.com/cockroachdb/errors"
 	"github.com/lib/pq/oid"
 )

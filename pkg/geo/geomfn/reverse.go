@@ -6,7 +6,7 @@
 package geomfn
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo"
 	"github.com/twpayne/go-geom"
 )
 

@@ -8,8 +8,8 @@ package vector
 import (
 	"slices"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/buildutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/num32"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/buildutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/num32"
 	"github.com/cockroachdb/errors"
 )
 

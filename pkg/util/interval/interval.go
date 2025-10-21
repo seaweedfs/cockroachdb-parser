@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/envutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/envutil"
 	"github.com/cockroachdb/errors"
 )
 

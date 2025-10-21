@@ -9,8 +9,8 @@ import (
 	"regexp"
 	"regexp/syntax"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/cache"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/syncutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/cache"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/syncutil"
 )
 
 // RegexpCacheKey allows cache keys to take the form of different types,

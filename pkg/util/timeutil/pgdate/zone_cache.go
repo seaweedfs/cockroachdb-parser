@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/syncutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/timeutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/syncutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/timeutil"
 )
 
 // zoneCache stores the results of resolving time.Location instances.

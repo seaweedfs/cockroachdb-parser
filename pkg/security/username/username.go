@@ -11,8 +11,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/lexbase"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/catid"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/lexbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/catid"
 	"github.com/cockroachdb/errors"
 	"github.com/cockroachdb/redact"
 )

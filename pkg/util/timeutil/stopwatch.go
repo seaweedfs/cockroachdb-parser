@@ -8,8 +8,8 @@ package timeutil
 import (
 	"time"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/grunning"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/syncutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/grunning"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/syncutil"
 )
 
 // StopWatch is a utility stop watch that can be safely started and stopped

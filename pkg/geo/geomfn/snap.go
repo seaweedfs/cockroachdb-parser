@@ -6,8 +6,8 @@
 package geomfn
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geos"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geos"
 )
 
 // Snap returns the input geometry with the vertices snapped to the target

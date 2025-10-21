@@ -5,7 +5,7 @@
 
 package tree
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/semenumpb"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/semenumpb"
 
 type CreateTrigger struct {
 	Replace     bool

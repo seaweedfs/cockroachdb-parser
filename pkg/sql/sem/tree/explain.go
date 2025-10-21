@@ -8,11 +8,11 @@ package tree
 import (
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgcode"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgerror"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/errorutil/unimplemented"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/pretty"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgcode"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/errorutil/unimplemented"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/pretty"
 	"github.com/cockroachdb/errors"
 )
 

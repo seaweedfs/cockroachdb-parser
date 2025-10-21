@@ -9,7 +9,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo"
 	"github.com/cockroachdb/errors"
 	"github.com/stretchr/testify/require"
 	"github.com/twpayne/go-geom"

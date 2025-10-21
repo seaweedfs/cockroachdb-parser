@@ -15,7 +15,7 @@ import (
 	"sync/atomic"
 
 	"github.com/biogo/store/llrb"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/interval"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/interval"
 )
 
 // EvictionPolicy is the cache eviction policy enum.
@@ -140,7 +140,7 @@ func (l *entryList) remove(e *Entry) *Entry {
 	}
 	// TODO(peter): Revert this protection against removing a non-existent entry
 	// from the list when the cause of
-	// https://github.com/cockroachdb/cockroachdb-parser/issues/6190 is determined. Should
+	// https://github.com/seaweedfs/cockroachdb-parser/issues/6190 is determined. Should
 	// be replaced with an explicit panic instead of the implicit one of a
 	// nil-pointer dereference.
 	if e.next != nil {

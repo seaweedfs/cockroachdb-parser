@@ -6,8 +6,8 @@
 package cast
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/oidext"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/volatility"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/oidext"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/volatility"
 	"github.com/cockroachdb/errors"
 	"github.com/lib/pq/oid"
 )

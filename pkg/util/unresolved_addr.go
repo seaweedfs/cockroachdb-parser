@@ -10,7 +10,7 @@ import (
 	"net"
 	"os"
 
-	addrutil "github.com/cockroachdb/cockroachdb-parser/pkg/util/netutil/addr"
+	addrutil "github.com/seaweedfs/cockroachdb-parser/pkg/util/netutil/addr"
 )
 
 // TestAddr is an address to use for test servers. Listening on port 0

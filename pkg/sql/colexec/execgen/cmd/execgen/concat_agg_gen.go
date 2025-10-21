@@ -9,7 +9,7 @@ import (
 	"io"
 	"text/template"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
 )
 
 const concatAggTmpl = "pkg/sql/colexec/colexecagg/concat_agg_tmpl.go"

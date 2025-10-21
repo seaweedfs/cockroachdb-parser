@@ -12,13 +12,13 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sessiondatapb"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/encoding"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/system"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/timeofday"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/timetz"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/timeutil/pgdate"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sessiondatapb"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/encoding"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/system"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/timeofday"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/timetz"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/timeutil/pgdate"
 	"github.com/lib/pq/oid"
 )
 
@@ -206,7 +206,7 @@ func PgwireFormatFloat(
 ) []byte {
 	// PostgreSQL supports 'Inf' as a valid literal for the floating point
 	// special value Infinity, therefore handling the special cases for them.
-	// (https://github.com/cockroachdb/cockroachdb-parser/issues/62601)
+	// (https://github.com/seaweedfs/cockroachdb-parser/issues/62601)
 	if math.IsInf(fl, 1) {
 		return append(buf, []byte("Infinity")...)
 	} else if math.IsInf(fl, -1) {

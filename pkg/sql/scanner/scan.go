@@ -14,7 +14,7 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/lexbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/lexbase"
 )
 
 const eof = -1

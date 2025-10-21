@@ -5,7 +5,7 @@
 
 package tree
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree/treecmp"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree/treecmp"
 
 // FoldComparisonExpr folds a given comparison operation and its expressions
 // into an equivalent operation that will hit in the CmpOps map, returning

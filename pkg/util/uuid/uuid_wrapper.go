@@ -11,7 +11,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/uint128"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/uint128"
 	"github.com/cockroachdb/errors"
 	"github.com/cockroachdb/redact"
 )

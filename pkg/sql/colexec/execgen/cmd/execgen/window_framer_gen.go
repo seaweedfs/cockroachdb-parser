@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree/treewindow"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree/treewindow"
 )
 
 const windowFramerTmpl = "pkg/sql/colexec/colexecwindow/window_framer_tmpl.go"

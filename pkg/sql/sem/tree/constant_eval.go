@@ -6,8 +6,8 @@
 package tree
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/cast"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/volatility"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/cast"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/volatility"
 )
 
 // OperatorIsImmutable returns true if the given expression corresponds to a

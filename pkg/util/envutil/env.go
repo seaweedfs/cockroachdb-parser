@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/humanizeutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/syncutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/humanizeutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/syncutil"
 	"github.com/cockroachdb/redact"
 )
 

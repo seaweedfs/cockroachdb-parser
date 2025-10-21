@@ -6,7 +6,7 @@
 package json
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/metamorphic"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/metamorphic"
 	"github.com/cockroachdb/errors"
 )
 

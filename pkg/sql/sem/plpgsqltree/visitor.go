@@ -6,8 +6,8 @@
 package plpgsqltree
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree"
-	unimp "github.com/cockroachdb/cockroachdb-parser/pkg/util/errorutil/unimplemented"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree"
+	unimp "github.com/seaweedfs/cockroachdb-parser/pkg/util/errorutil/unimplemented"
 )
 
 // StatementVisitor defines methods that are called plpgsql statements during

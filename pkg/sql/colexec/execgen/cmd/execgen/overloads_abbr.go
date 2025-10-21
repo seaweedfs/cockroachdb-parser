@@ -5,7 +5,7 @@
 
 package main
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
 
 // CanAbbreviate returns true if the canonical type family supports abbreviation
 // to a uint64 that can be used for comparison fast paths.

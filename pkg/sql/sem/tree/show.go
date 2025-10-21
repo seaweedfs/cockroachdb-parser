@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/lexbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/lexbase"
 	"github.com/cockroachdb/errors"
 	"github.com/google/go-cmp/cmp"
 )

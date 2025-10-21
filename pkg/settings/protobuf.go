@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/protoutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/protoutil"
 	"github.com/cockroachdb/errors"
 	"github.com/gogo/protobuf/jsonpb"
 	"github.com/gogo/protobuf/proto"

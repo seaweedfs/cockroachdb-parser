@@ -5,7 +5,7 @@
 
 package plpgsqltree
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree"
 
 type Exception struct {
 	StatementImpl

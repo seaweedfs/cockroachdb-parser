@@ -6,9 +6,9 @@
 package tree
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geopb"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geopb"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util"
 )
 
 // DatumAlloc provides batch allocation of datum pointers, amortizing the cost

@@ -8,7 +8,7 @@ package settings
 import (
 	"time"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/protoutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/protoutil"
 )
 
 // SettingOption is the type of an option that can be passed to Register.

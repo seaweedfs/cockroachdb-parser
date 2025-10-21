@@ -19,7 +19,7 @@ import (
 	"bytes"
 	"unicode/utf8"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/stringencoding"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/stringencoding"
 )
 
 // EncodeFlags influence the formatting of strings and identifiers.

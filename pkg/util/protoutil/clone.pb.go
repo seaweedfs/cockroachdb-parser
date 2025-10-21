@@ -5,7 +5,7 @@ package protoutil
 
 import (
 	fmt "fmt"
-	github_com_cockroachdb_cockroach_pkg_util_uuid "github.com/cockroachdb/cockroachdb-parser/pkg/util/uuid"
+	github_com_cockroachdb_cockroach_pkg_util_uuid "github.com/seaweedfs/cockroachdb-parser/pkg/util/uuid"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
@@ -26,7 +26,7 @@ const _ = proto.GoGoProtoPackageIsVersion3 // please upgrade the proto package
 
 type RecursiveAndUncloneable struct {
 	R    *RecursiveAndUncloneable                            `protobuf:"bytes,1,opt,name=r,proto3" json:"r,omitempty"`
-	Uuid github_com_cockroachdb_cockroach_pkg_util_uuid.UUID `protobuf:"bytes,2,opt,name=uuid,proto3,customtype=github.com/cockroachdb/cockroachdb-parser/pkg/util/uuid.UUID" json:"uuid"`
+	Uuid github_com_cockroachdb_cockroach_pkg_util_uuid.UUID `protobuf:"bytes,2,opt,name=uuid,proto3,customtype=github.com/seaweedfs/cockroachdb-parser/pkg/util/uuid.UUID" json:"uuid"`
 }
 
 func (m *RecursiveAndUncloneable) Reset()         { *m = RecursiveAndUncloneable{} }

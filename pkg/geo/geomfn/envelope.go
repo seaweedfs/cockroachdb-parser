@@ -5,7 +5,7 @@
 
 package geomfn
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/geo"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/geo"
 
 // Envelope forms an envelope (compliant with the OGC spec) of the given Geometry.
 // It uses the bounding box to return a Polygon, but can return a Point or

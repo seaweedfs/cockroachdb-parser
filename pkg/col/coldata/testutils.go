@@ -9,8 +9,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/col/typeconv"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/col/typeconv"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -10,10 +10,10 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/col/typeconv"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/colexecerror"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree/treebin"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/col/typeconv"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/colexecerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree/treebin"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
 	"github.com/cockroachdb/errors"
 )
 

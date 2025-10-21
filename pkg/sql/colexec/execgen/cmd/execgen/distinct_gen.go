@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree/treecmp"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree/treecmp"
 )
 
 // distinctTmpl is the common base for the template used to generate code for
@@ -32,16 +32,16 @@ import (
 	"context"
 
 	"github.com/cockroachdb/apd/v3"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/col/coldata"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/col/coldataext"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/col/typeconv"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/colexec/execgen"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/colexecop"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/colexecerror"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/duration"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/json"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/col/coldata"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/col/coldataext"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/col/typeconv"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/colexec/execgen"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/colexecop"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/colexecerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/duration"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/json"
 	"github.com/cockroachdb/errors"
 )
 

@@ -14,7 +14,7 @@
 
 package tree
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/col/coldata"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/col/coldata"
 
 // ValuesClause represents a VALUES clause.
 type ValuesClause struct {

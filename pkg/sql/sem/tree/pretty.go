@@ -11,12 +11,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/idxtype"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree/treecmp"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree/treewindow"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/json"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/pretty"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/idxtype"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree/treecmp"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree/treewindow"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/json"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/pretty"
 	"github.com/cockroachdb/errors"
 )
 

@@ -8,8 +8,8 @@ package timeutil
 import (
 	"time"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/grunning"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/syncutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/grunning"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/syncutil"
 )
 
 // CPUStopWatch is a wrapper around cpuStopWatch that is safe to use

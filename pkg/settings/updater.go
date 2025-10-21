@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/envutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/protoutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/envutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/protoutil"
 	"github.com/cockroachdb/errors"
 	"github.com/gogo/protobuf/proto"
 )

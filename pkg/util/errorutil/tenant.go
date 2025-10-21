@@ -5,7 +5,7 @@
 
 package errorutil
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/util/errorutil/unimplemented"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/util/errorutil/unimplemented"
 
 // UnsupportedUnderClusterVirtualizationMessage is the message used by UnsupportedUnderClusterVirtualization error.
 const UnsupportedUnderClusterVirtualizationMessage = "operation is unsupported within a virtual cluster"

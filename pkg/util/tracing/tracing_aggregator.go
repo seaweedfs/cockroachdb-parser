@@ -8,8 +8,8 @@ package tracing
 import (
 	"context"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/protoutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/syncutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/protoutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/syncutil"
 	"github.com/cockroachdb/errors"
 )
 

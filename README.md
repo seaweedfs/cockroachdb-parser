@@ -1,7 +1,7 @@
 # cockroachdb-parser
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/cockroachdb/cockroachdb-parser.svg)](https://pkg.go.dev/github.com/cockroachdb/cockroachdb-parser)
-[![Tests](https://github.com/cockroachdb/cockroachdb-parser/actions/workflows/go.yml/badge.svg)](https://github.com/cockroachdb/cockroachdb-parser/actions/workflows/go.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/seaweedfs/cockroachdb-parser.svg)](https://pkg.go.dev/github.com/seaweedfs/cockroachdb-parser)
+[![Tests](https://github.com/seaweedfs/cockroachdb-parser/actions/workflows/go.yml/badge.svg)](https://github.com/seaweedfs/cockroachdb-parser/actions/workflows/go.yml)
 
 `cockroachdb-parser` is a snapshot of the parser package and
 all its dependencies from the [CockroachDB repo][repo]. The
@@ -28,7 +28,7 @@ This helps us customise the parser slightly for third party users.
 ```
 import (
   ...
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/parser"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/parser"
   ...
 )
 

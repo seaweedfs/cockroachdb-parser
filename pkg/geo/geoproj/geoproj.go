@@ -18,10 +18,10 @@ import (
 	"math"
 	"unsafe"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geographiclib"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geoprojbase"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgcode"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geographiclib"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geoprojbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgcode"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgerror"
 )
 
 // maxArrayLen is the maximum safe length for this architecture.

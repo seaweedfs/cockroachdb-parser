@@ -13,8 +13,8 @@ import (
 	"io"
 	"math/bits"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/base64"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/base64"
 	"github.com/cockroachdb/errors"
 )
 

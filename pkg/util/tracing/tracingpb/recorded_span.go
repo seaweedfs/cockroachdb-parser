@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/humanizeutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/humanizeutil"
 	"github.com/cockroachdb/redact"
 	types "github.com/gogo/protobuf/types"
 )

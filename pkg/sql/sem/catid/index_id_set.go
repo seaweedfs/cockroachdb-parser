@@ -5,7 +5,7 @@
 
 package catid
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/util/intsets"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/util/intsets"
 
 // IndexSet efficiently stores an unordered set of index ids.
 type IndexSet struct {

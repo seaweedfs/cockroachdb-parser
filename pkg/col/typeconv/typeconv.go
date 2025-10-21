@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/cockroachdb/apd/v3"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/duration"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/json"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/duration"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/json"
 )
 
 // DatumVecCanonicalTypeFamily is the "canonical" type family of all types that

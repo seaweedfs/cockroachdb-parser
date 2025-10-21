@@ -8,8 +8,8 @@ package tracing
 import (
 	"fmt"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/timeutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/tracing/tracingpb"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/timeutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/tracing/tracingpb"
 	"github.com/cockroachdb/redact"
 	"go.opentelemetry.io/otel/attribute"
 	oteltrace "go.opentelemetry.io/otel/trace"
@@ -268,7 +268,7 @@ func (s *spanInner) recordRedactable(
 		// TODO(obs-inf): depending on the situation it may be more appropriate to
 		// redact the string here.
 		// See:
-		// https://github.com/cockroachdb/cockroachdb-parser/issues/58610#issuecomment-926093901
+		// https://github.com/seaweedfs/cockroachdb-parser/issues/58610#issuecomment-926093901
 		s.otelSpan.AddEvent(str.StripMarkers(), oteltrace.WithTimestamp(timeutil.Now()))
 	}
 	if s.netTr != nil {

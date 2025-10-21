@@ -11,9 +11,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/debugutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/protoutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/tracing/tracingpb"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/debugutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/protoutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/tracing/tracingpb"
 	"github.com/cockroachdb/errors"
 	"github.com/cockroachdb/logtags"
 	"github.com/petermattis/goid"

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/errorutil/unimplemented"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/errorutil/unimplemented"
 )
 
 // The functions in this file are used by fieldExtract.Extract().

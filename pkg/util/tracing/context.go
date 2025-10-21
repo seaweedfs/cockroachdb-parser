@@ -8,7 +8,7 @@ package tracing
 import (
 	"context"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/ctxutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/ctxutil"
 )
 
 var activeSpanKey = ctxutil.RegisterFastValueKey()

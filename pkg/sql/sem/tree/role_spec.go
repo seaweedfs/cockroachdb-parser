@@ -8,7 +8,7 @@ package tree
 import (
 	"fmt"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/lexbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/lexbase"
 )
 
 // RoleSpecType represents whether the RoleSpec is represented by

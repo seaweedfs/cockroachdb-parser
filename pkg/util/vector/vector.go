@@ -12,10 +12,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgcode"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgerror"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/encoding"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/num32"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgcode"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/encoding"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/num32"
 )
 
 // MaxDim is the maximum number of dimensions a vector can have.

@@ -16,7 +16,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/cli/exit"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/cli/exit"
 	"github.com/cockroachdb/errors"
 	"github.com/cockroachdb/gostdlib/go/format"
 )
@@ -531,7 +531,7 @@ import (
   "regexp"{{end}}
 
   "github.com/cockroachdb/redact"
-  "github.com/cockroachdb/cockroachdb-parser/pkg/util/jsonbytes"
+  "github.com/seaweedfs/cockroachdb-parser/pkg/util/jsonbytes"
 	"github.com/gogo/protobuf/jsonpb"
 )
 
@@ -739,7 +739,7 @@ func (m *{{.GoType}}) AppendJSONFields(printComma bool, b redact.RedactableBytes
 
 package {{ .Package }}
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/util/log/logpb"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/util/log/logpb"
 
 {{range .Events}}
 // LoggingChannel implements the EventPayload interface.

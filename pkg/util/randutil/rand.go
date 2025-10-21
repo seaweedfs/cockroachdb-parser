@@ -16,8 +16,8 @@ import (
 	"time"
 	_ "unsafe" // required by go:linkname
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/envutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/syncutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/envutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/syncutil"
 )
 
 // lockedSource is a thread safe math/rand.Source. See math/rand/rand.go.

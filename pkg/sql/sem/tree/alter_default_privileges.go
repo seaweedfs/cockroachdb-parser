@@ -5,7 +5,7 @@
 
 package tree
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/sql/privilege"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/sql/privilege"
 
 // AlterDefaultPrivileges represents an ALTER DEFAULT PRIVILEGES statement.
 type AlterDefaultPrivileges struct {

@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/settings"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/allstacks"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/timeutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/tracing/tracingpb"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/settings"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/allstacks"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/timeutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/tracing/tracingpb"
 	"github.com/cockroachdb/errors"
 	"github.com/petermattis/goid"
 )

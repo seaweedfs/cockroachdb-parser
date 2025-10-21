@@ -7,7 +7,7 @@
 
 package metamorphic
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/util/envutil"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/util/envutil"
 
 // disableMetamorphicTesting can be used to disable metamorphic tests. If it
 // is set to true then metamorphic testing will not be enabled.

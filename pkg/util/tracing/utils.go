@@ -6,7 +6,7 @@
 package tracing
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/tracing/tracingpb"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/tracing/tracingpb"
 	"github.com/cockroachdb/redact"
 	"github.com/gogo/protobuf/jsonpb"
 )

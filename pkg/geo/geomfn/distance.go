@@ -8,11 +8,11 @@ package geomfn
 import (
 	"math"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geodist"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geos"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgcode"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geodist"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geos"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgcode"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgerror"
 	"github.com/cockroachdb/errors"
 	"github.com/twpayne/go-geom"
 	"github.com/twpayne/go-geom/xy/lineintersector"

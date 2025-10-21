@@ -14,7 +14,7 @@
 
 package tree
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/sql/privilege"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/sql/privilege"
 
 // Revoke represents a REVOKE statement.
 // PrivilegeList and TargetList are defined in grant.go

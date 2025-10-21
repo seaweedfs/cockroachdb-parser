@@ -6,8 +6,8 @@
 package sessiondatapb
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/catid"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/syncutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/catid"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/syncutil"
 )
 
 // SequenceCacheNodeEntry embeds the existing SequenceCacheEntry struct that

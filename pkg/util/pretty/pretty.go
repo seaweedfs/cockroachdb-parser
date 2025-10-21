@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/errorutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/errorutil"
 	"github.com/cockroachdb/errors"
 )
 

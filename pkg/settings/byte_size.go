@@ -6,7 +6,7 @@
 package settings
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/humanizeutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/humanizeutil"
 	"github.com/cockroachdb/errors"
 )
 

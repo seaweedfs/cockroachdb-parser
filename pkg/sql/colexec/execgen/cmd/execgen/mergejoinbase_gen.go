@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree/treecmp"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree/treecmp"
 )
 
 const mergeJoinBaseTmpl = "pkg/sql/colexec/colexecjoin/mergejoinbase_tmpl.go"

@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/randutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/randutil"
 )
 
 // Some issues will only be revealed if we have duplicate strings, so we

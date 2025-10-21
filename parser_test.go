@@ -3,8 +3,8 @@ package main
 import (
 	"testing"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/parser"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/parser"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree"
 	"github.com/stretchr/testify/require"
 )
 

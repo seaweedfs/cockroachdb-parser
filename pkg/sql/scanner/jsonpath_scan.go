@@ -6,8 +6,8 @@
 package scanner
 
 import (
-	sqllexbase "github.com/cockroachdb/cockroachdb-parser/pkg/sql/lexbase"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/jsonpath/parser/lexbase"
+	sqllexbase "github.com/seaweedfs/cockroachdb-parser/pkg/sql/lexbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/jsonpath/parser/lexbase"
 )
 
 // JSONPathScanner is a scanner with a jsonpath-specific scan function.

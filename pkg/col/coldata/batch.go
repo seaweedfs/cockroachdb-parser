@@ -11,9 +11,9 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/col/typeconv"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/metamorphic"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/col/typeconv"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/metamorphic"
 	"github.com/cockroachdb/errors"
 )
 

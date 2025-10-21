@@ -7,7 +7,7 @@
 
 package tree
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/util/timeutil"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/util/timeutil"
 
 var (
 	timeCtx = NewParseContext(timeutil.Now())

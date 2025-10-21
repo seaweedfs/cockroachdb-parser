@@ -33,7 +33,7 @@ func Supported() []string {
 func init() {
 	if collate.CLDRVersion != "23" {
 		panic("This binary was built with an incompatible version of golang.org/x/text. " +
-			"See https://github.com/cockroachdb/cockroachdb-parser/issues/63738 for details")
+			"See https://github.com/seaweedfs/cockroachdb-parser/issues/63738 for details")
 	}
 
 	supportedTagNames = []string{

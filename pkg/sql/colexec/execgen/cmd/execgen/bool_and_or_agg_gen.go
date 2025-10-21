@@ -11,8 +11,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/colexecerror"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/colexecerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
 	"github.com/cockroachdb/errors"
 )
 

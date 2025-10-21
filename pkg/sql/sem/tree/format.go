@@ -12,11 +12,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/lexbase"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sessiondatapb"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/uuid"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/lexbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sessiondatapb"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/uuid"
 	"github.com/cockroachdb/errors"
 	"github.com/cockroachdb/redact"
 )

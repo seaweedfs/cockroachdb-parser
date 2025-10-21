@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
 )
 
 const substringTmpl = "pkg/sql/colexec/substring_tmpl.go"

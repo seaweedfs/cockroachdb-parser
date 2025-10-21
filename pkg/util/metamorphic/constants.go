@@ -12,12 +12,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/build/bazel"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/buildutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/envutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/metamorphic/metamorphicutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/randutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/syncutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/build/bazel"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/buildutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/envutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/metamorphic/metamorphicutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/randutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/syncutil"
 )
 
 // IsMetamorphicBuild returns whether this build is metamorphic. By build being
@@ -104,7 +104,7 @@ func ConstantWithTestBool(name string, defaultValue bool) bool {
 
 // ConstantWithTestBoolWithoutLogging is like ConstantWithTestBool except it
 // does not log the value. This is necessary to work around this issue:
-// https://github.com/cockroachdb/cockroachdb-parser/issues/106667
+// https://github.com/seaweedfs/cockroachdb-parser/issues/106667
 // TODO(test-eng): Remove this variant when the issue above is addressed.
 func ConstantWithTestBoolWithoutLogging(name string, defaultValue bool) bool {
 	return constantWithTestBoolInternal(name, defaultValue, false /* doLog */)

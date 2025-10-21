@@ -6,7 +6,7 @@
 package execgen
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/colexecerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/colexecerror"
 	"github.com/cockroachdb/errors"
 )
 

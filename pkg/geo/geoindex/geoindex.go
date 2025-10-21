@@ -12,11 +12,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geogfn"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geogfn"
 	// Blank import so projections are initialized correctly.
-	_ "github.com/cockroachdb/cockroachdb-parser/pkg/geo/geographiclib"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geopb"
+	_ "github.com/seaweedfs/cockroachdb-parser/pkg/geo/geographiclib"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geopb"
 	"github.com/golang/geo/s2"
 	"github.com/twpayne/go-geom"
 )

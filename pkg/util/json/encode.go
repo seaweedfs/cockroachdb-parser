@@ -7,7 +7,7 @@ package json
 
 import (
 	"github.com/cockroachdb/apd/v3"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/encoding"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/encoding"
 	"github.com/cockroachdb/errors"
 )
 

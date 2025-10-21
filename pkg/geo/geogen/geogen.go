@@ -11,9 +11,9 @@ import (
 	"math/rand"
 	"sort"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geopb"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geoprojbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geopb"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geoprojbase"
 	"github.com/cockroachdb/errors"
 	"github.com/twpayne/go-geom"
 )

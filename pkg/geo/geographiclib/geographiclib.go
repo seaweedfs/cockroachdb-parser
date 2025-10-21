@@ -16,7 +16,7 @@ import "C"
 import (
 	"math"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geoprojbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geoprojbase"
 	"github.com/golang/geo/s1"
 	"github.com/golang/geo/s2"
 )

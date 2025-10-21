@@ -12,9 +12,9 @@ import (
 	"unsafe"
 
 	"github.com/cockroachdb/apd/v3"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/inverted"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/encoding"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/syncutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/inverted"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/encoding"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/syncutil"
 	"github.com/cockroachdb/errors"
 )
 

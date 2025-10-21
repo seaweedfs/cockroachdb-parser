@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgcode"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgerror"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
-	unimp "github.com/cockroachdb/cockroachdb-parser/pkg/util/errorutil/unimplemented"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgcode"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
+	unimp "github.com/seaweedfs/cockroachdb-parser/pkg/util/errorutil/unimplemented"
 	"github.com/cockroachdb/errors"
 )
 
@@ -368,7 +368,7 @@ func (l *lexer) UnimplementedWithIssue(issue int) {
 	l.populateErrorDetails()
 	l.lastError = &tree.UnsupportedError{
 		Err:         l.lastError,
-		FeatureName: fmt.Sprintf("https://github.com/cockroachdb/cockroachdb-parser/issues/%d", issue),
+		FeatureName: fmt.Sprintf("https://github.com/seaweedfs/cockroachdb-parser/issues/%d", issue),
 	}
 }
 

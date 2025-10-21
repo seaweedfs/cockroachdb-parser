@@ -7,7 +7,7 @@
 package catid
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/oidext"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/oidext"
 	"github.com/lib/pq/oid"
 )
 

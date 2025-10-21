@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/humanizeutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/tracing"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/humanizeutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/tracing"
 	"github.com/cockroachdb/errors"
 	"github.com/cockroachdb/redact"
 	"github.com/gogo/protobuf/proto"

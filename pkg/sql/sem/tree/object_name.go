@@ -5,7 +5,7 @@
 
 package tree
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/catconstants"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/catconstants"
 
 // ObjectName is a common interface for qualified object names.
 type ObjectName interface {

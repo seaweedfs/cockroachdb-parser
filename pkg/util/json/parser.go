@@ -12,7 +12,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/json/tokenizer"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/json/tokenizer"
 	"github.com/cockroachdb/errors"
 )
 

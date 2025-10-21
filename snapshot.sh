@@ -54,7 +54,7 @@ rm pkg/sql/plpgsql/parser/.gitignore pkg/sql/plpgsql/parser/lexbase/.gitignore
 # delete tests and testfiles
 find pkg -type f -name '*_test.go' | xargs rm
 # sed replace any instances of cockroachdb
-find pkg -type f -name '*.go' | xargs sed -i.bak -e 's_github\.com/cockroachdb/cockroach/_github.com/cockroachdb/cockroachdb-parser/_g'
+find pkg -type f -name '*.go' | xargs sed -i.bak -e 's_github\.com/cockroachdb/cockroach/_github.com/seaweedfs/cockroachdb-parser/_g'
 # fix protobuf enum and type registration to avoid conficts.
 find pkg -type f -name '*.pb.go' | xargs sed -i.bak -e 's/\"cockroach\./\"cockroach\.parser\./g'
 goimports -w pkg/sql/sem/tree/function_name.go

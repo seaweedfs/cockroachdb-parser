@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
 )
 
 const countAggTmpl = "pkg/sql/colexec/colexecagg/count_agg_tmpl.go"

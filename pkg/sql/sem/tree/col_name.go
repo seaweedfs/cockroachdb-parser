@@ -8,7 +8,7 @@ package tree
 import (
 	"context"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
 )
 
 // GetRenderColName computes a name for a result column.

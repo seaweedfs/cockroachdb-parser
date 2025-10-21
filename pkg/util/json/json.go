@@ -21,14 +21,14 @@ import (
 	"unsafe"
 
 	"github.com/cockroachdb/apd/v3"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/keysbase"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/inverted"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgcode"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgerror"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/buildutil"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/deduplicate"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/encoding"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/intsets"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/keysbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/inverted"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgcode"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/buildutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/deduplicate"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/encoding"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/intsets"
 	"github.com/cockroachdb/errors"
 )
 

@@ -11,7 +11,7 @@
 // builtins package.
 package builtinsregistry
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree"
 
 var registry = map[string]definition{}
 

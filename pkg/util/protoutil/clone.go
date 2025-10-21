@@ -8,7 +8,7 @@ package protoutil
 import (
 	"reflect"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/syncutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/syncutil"
 	"github.com/cockroachdb/errors"
 	"github.com/gogo/protobuf/proto"
 )

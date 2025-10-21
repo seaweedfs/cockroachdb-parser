@@ -8,7 +8,7 @@ package docs
 import (
 	"fmt"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/build"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/build"
 )
 
 // URLBase is the root URL for the version of the docs associated with this

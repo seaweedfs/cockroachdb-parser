@@ -5,6 +5,6 @@
 
 package plpgsqltree
 
-import "github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree"
+import "github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree"
 
 type Variable = tree.Name

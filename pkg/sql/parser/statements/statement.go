@@ -6,9 +6,9 @@
 package statements
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/plpgsqltree"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/sem/tree"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/jsonpath"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/plpgsqltree"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/sem/tree"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/jsonpath"
 )
 
 // Statement is the result of parsing a single statement. It contains the AST
@@ -17,7 +17,7 @@ type Statement[T any] struct {
 	// AST is the root of the AST tree for the parsed statement.
 	// Note that it is NOT SAFE to access this currently with statement execution,
 	// as unfortunately the AST is not immutable.
-	// See issue https://github.com/cockroachdb/cockroachdb-parser/issues/22847 for more
+	// See issue https://github.com/seaweedfs/cockroachdb-parser/issues/22847 for more
 	// details on this problem.
 	AST T
 

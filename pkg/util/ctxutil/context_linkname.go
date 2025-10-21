@@ -16,7 +16,7 @@ import (
 	"fmt"
 	_ "unsafe" // Must import unsafe to enable linkname.
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/buildutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/buildutil"
 )
 
 // WhenDone arranges for the specified function to be invoked when

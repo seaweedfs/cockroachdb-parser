@@ -18,11 +18,11 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/build/bazel"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/docs"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geopb"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgcode"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/pgwire/pgerror"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/build/bazel"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/docs"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geopb"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgcode"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/pgwire/pgerror"
 	"github.com/cockroachdb/errors"
 )
 

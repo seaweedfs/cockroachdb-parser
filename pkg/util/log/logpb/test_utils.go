@@ -6,7 +6,7 @@
 package logpb
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/jsonbytes"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/jsonbytes"
 	"github.com/cockroachdb/redact"
 )
 

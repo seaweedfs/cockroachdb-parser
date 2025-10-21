@@ -8,10 +8,10 @@ package geoindex
 import (
 	"context"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geogfn"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geopb"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geoprojbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geogfn"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geopb"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geoprojbase"
 	"github.com/cockroachdb/errors"
 	"github.com/golang/geo/s1"
 	"github.com/golang/geo/s2"

@@ -6,8 +6,8 @@
 package parser
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/lexbase"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/scanner"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/lexbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/scanner"
 )
 
 func makeSQLScanner(str string) scanner.SQLScanner {

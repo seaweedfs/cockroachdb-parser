@@ -121,7 +121,7 @@ func decodeTimeoutError(
 }
 
 func init() {
-	errors.RegisterTypeMigration("github.com/cockroachdb/cockroachdb-parser/pkg/util/contextutil",
+	errors.RegisterTypeMigration("github.com/seaweedfs/cockroachdb-parser/pkg/util/contextutil",
 		"*contextutil.TimeoutError", &TimeoutError{})
 
 	pKey := errors.GetTypeKey(&TimeoutError{})

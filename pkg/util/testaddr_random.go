@@ -10,7 +10,7 @@ package util
 import (
 	"fmt"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/randutil"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/randutil"
 )
 
 func init() {

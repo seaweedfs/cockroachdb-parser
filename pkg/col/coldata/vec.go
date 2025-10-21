@@ -9,8 +9,8 @@ package coldata
 import (
 	"fmt"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/col/typeconv"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/col/typeconv"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
 )
 
 // Column is an interface that represents a raw array of a Go native type.

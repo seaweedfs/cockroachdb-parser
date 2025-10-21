@@ -13,7 +13,7 @@ import (
 )
 
 var prefix = func() string {
-	result := "github.com/cockroachdb/cockroachdb-parser/pkg/"
+	result := "github.com/seaweedfs/cockroachdb-parser/pkg/"
 	if runtime.Compiler == "gccgo" {
 		result = strings.Replace(result, ".", "_", -1)
 		result = strings.Replace(result, "/", "_", -1)

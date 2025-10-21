@@ -6,10 +6,10 @@
 package geogfn
 
 import (
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo"
 	// Blank import so projections are initialized correctly.
-	_ "github.com/cockroachdb/cockroachdb-parser/pkg/geo/geographiclib"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geoprojbase"
+	_ "github.com/seaweedfs/cockroachdb-parser/pkg/geo/geographiclib"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geoprojbase"
 	"github.com/golang/geo/s2"
 )
 

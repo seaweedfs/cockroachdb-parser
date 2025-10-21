@@ -8,8 +8,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/col/typeconv"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/col/typeconv"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
 )
 
 // nativeCastInfos contains supported "from -> to" mappings where both types are

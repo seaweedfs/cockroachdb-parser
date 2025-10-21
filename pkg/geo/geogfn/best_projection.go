@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geopb"
-	"github.com/cockroachdb/cockroachdb-parser/pkg/geo/geoprojbase"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geopb"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/geo/geoprojbase"
 	"github.com/golang/geo/s1"
 	"github.com/golang/geo/s2"
 )

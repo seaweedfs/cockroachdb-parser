@@ -8,7 +8,7 @@ package cast
 import (
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/sql/types"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/sql/types"
 	"github.com/lib/pq/oid"
 )
 

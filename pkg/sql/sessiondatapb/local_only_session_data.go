@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cockroachdb/cockroachdb-parser/pkg/util/admission/admissionpb"
+	"github.com/seaweedfs/cockroachdb-parser/pkg/util/admission/admissionpb"
 	"github.com/cockroachdb/errors"
 )
 
